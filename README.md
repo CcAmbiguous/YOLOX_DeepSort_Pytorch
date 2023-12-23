@@ -50,7 +50,10 @@ img_visual = result['visual'] 	 # visualized image
 cv2.imshow('detect', img_visual) # imshow
 cv2.waitKey(0)
 ```
-
+You can also use it directly
+```python
+python pic.py
+```
 You can also get more information like *raw_img/boudingbox/score/class_id* from the result of detector.
 
 ## :art: Install
