@@ -1,7 +1,7 @@
 # YOLOX_deepsort
 YOLOX and DeepSort are combined and improved for multi-target detection and tracking of pedestrians
 
-## :tada: How to use
+## : How to use
 
 ### &#8627; Tracker example
 
@@ -94,7 +94,7 @@ You can also get more information like *raw_img/boudingbox/score/class_id* from 
    detector = Tracker(model='yolox-m', ckpt='./yolox_m.pth')
    ```
 
-##  :rose: Run demo
+##  : Run demo
 
 ```python
 python vidend_demo.py --path=test.mp4
