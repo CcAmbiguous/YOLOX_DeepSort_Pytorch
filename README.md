@@ -1,6 +1,7 @@
 # YOLOX_deepsort
 YOLOX and DeepSort are combined and improved for multi-target detection and tracking of pedestrians
 
+Please download the corresponding YOLOX and deepsort parts to the appropriate location, and replace the original deepsort model with model.py, so that the new network can be used for feature extraction
 ## : How to use
 
 ### &#8627; Tracker example
