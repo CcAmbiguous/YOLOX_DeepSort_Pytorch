@@ -1,15 +1,5 @@
 # YOLOX_deepsort
-
-<div align="center">
-<p>
-<img src="utils/img2.gif" width="400"/> <img src="utils/img1.gif" width="400"/> 
-</p>
-<br>
-<div>
-
-</div>
-
-</div>
+YOLOX and DeepSort are combined and improved for multi-target detection and tracking of pedestrians
 
 ## :tada: How to use
 
@@ -40,15 +30,7 @@ cv2.destroyAllWindows()
 
 Tracker uses YOLOX as detector to get each target's boundingbox, and use deepsort to get every bbox's ID.
 
-### &#8627; Select specific category
 
-If you just  want to track only some specific categories, you can set by param *filter_classes*.
-
-For example:
-
-```python
-tracker = Tracker(filter_classes=['car','person']) 
-```
 
 ## &#8627; Detector example
 
